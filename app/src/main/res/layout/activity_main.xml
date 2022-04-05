@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registro" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <TextView
+            android:id="@+id/txtUbicacionlectura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicacion" />
+
+
+        <EditText
+            android:id="@+id/txtUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <TextView
+            android:id="@+id/txtTelefonoLectura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono" />
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar" />
+    </LinearLayout>
+</RelativeLayout>
